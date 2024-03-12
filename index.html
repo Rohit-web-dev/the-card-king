@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <!-- -- Bootstrap --  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- -- icon --  -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- -- slick --  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+
+  <!-- -- Link CSS -- -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- -- header --  -->
+  <div class="header">
+    <header class="max-theme-width">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/header-footer/logo.png" alt="" width="100" />
+        </a>
+        <a href="index.html" class="home-nav">
+          <div class="home-item"><i class="fal fa-home-lg-alt"></i></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fad fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav" style="margin-left:auto">
+            <li class="nav-item"><a class="nav-link" href="checkout.html">ORDER YOUR CARD</a></li>
+            <li class="nav-item"><a class="nav-link">|</a></li>
+            <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-cart-plus"></i></a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">
+                <div class="user">
+                  <i class="fas fa-user"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <!-- -- banner --  -->
+  <div class="home-banner section-padding" style="background-image: url('./assets/images/home/banner/banner.png');">
+    <div class="max-theme-width">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <h4 class="banner-heading typewriter">The <br> <span data-text="Cards King"></span></h4>
+          <!-- <h4 class="banner-heading">The <br> Cards King</h4> -->
+          <p class="banner-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse repellat saepe recusandae
+            ab
+            sed perspiciatis velit dolores molestiae possimus ipsum? Veritatis, accusamus! Blanditiis dolor architecto
+            vero
+            repudiandae vel tenetur nemo!</p>
+          <button class="btn banner-btn">choose your card</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -- choose your card --  -->
+  <div class="choose section-padding">
+    <div class="max-theme-width">
+      <h4 class="heading slide-left">Choose <span>your card</span></h4>
+      <p class="para mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quas cum doloribus, omnis
+        sed
+        fugit cupiditate? Necessitatibus delectus aspernatur culpa exercitationem, saepe eveniet a architecto molestiae
+        assumenda, hic amet. Ratione.</p>
+      <!-- slick -->
+      <div class="slick-car" id="slick-slider-1">
+        <div class="img-div">
+          <div class="card-div">
+            <img src="./assets/images/home/choose/Layer1.png" alt="" class="img-fluid">
+            <div class="card-title">Pellesque henerit sagittis</div>
+          </div>
+        </div>
+        <div class="img-div">
+          <div class="card-div">
+            <img src="./assets/images/home/choose/Layer2.png" alt="" class="img-fluid">
+            <div class="card-title">Pellesque henerit sagittis</div>
+          </div>
+        </div>
+        <div class="img-div">
+          <div class="card-div">
+            <img src="./assets/images/home/choose/layer3.png" alt="" class="img-fluid">
+            <div class="card-title">Pellesque henerit sagittis</div>
+          </div>
+        </div>
+        <div class="img-div">
+          <div class="card-div">
+            <img src="./assets/images/home/choose/Layer1.png" alt="" class="img-fluid">
+            <div class="card-title">Pellesque henerit sagittis</div>
+          </div>
+        </div>
+        <div class="img-div">
+          <div class="card-div">
+            <img src="./assets/images/home/choose/layer3.png" alt="" class="img-fluid">
+            <div class="card-title">Pellesque henerit sagittis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -- customize your card --  -->
+  <div class="customize section-padding">
+    <div class="max-theme-width">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-12 my-3">
+          <img src="./assets/images/home/customize/customize.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6 col-12 my-3">
+          <h4 class="heading slide-left">Customize <span>your card</span></h4>
+          <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non maxime voluptatem, ea
+            possimus voluptatum. Culpa amet, minima neque eligendi sed pariatur mollitia voluptate excepturi illum vel
+            dolor aut facilis.</p>
+          <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dignissimos dolore, quasi qui
+            perspiciatis nulla quis? Neque nihil tenetur aspernatur aut modi deleniti cumque laboriosam sint quasi hic
+            praesentium alias magni reiciendis suscipit quisquam exercitationem dolore maiores, ratione similique
+            voluptate ipsa quaerat explicabo? Eveniet, dicta maxime rem est magni vel?</p>
+          <p class="para mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio tempore
+            accusantium repudiandae facere saepe neque delectus, eum suscipit quis perspiciatis sed dolores dolorem
+            consequatur ratione quia eligendi tempora, accusamus voluptatum rem quisquam magnam corporis!</p>
+          <a href="">Lorem ipsum dolor sit amet, consectetur</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -- why choose us --  -->
+  <div class="why-choose section-padding">
+    <div class="max-theme-width">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-12 my-3">
+          <div class="why-choose-left">
+            <h4 class="heading-3 mb-3">why choose us</h4>
+            <h4 class="heading-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, veniam soluta praesentium
+              consequuntur explicabo distinctio ab deleniti! Cum, ducimus, excepturi dicta itaque, facere delectus
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 my-3">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-12 my-3">
+              <div class="choose-box mb-4">
+                <div class="left-chid"><i class="fas fa-meat"></i></div>
+                <div class="right-chid">
+                  <h4>Feature #1</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolor.</p>
+                </div>
+              </div>
+              <div class="choose-box mb-4">
+                <div class="left-chid"><i class="fas fa-cog"></i></div>
+                <div class="right-chid">
+                  <h4>Feature #2</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolor.</p>
+                </div>
+              </div>
+              <div class="choose-box choose-box-lst mb-4">
+                <div class="left-chid"><i class="fas fa-arrow-alt-circle-right"></i></div>
+                <div class="right-chid">
+                  <h4>Feature #3</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolor.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 my-3">
+              <div class="choose-box mb-4">
+                <div class="left-chid"><i class="fas fa-rocket"></i></div>
+                <div class="right-chid">
+                  <h4>Feature #4</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolor.</p>
+                </div>
+              </div>
+              <div class="choose-box">
+                <div class="left-chid"><i class="fas fa-lock"></i></div>
+                <div class="right-chid">
+                  <h4>Feature #5</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, dolor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -- net divide --  -->
+  <div class="net-divide">
+    <img src="./assets/images/home/net.png" alt="">
+  </div>
+
+  <!-- -- testimonial --  -->
+  <div class="testimonial section-padding">
+    <div class="max-theme-width">
+      <div class="row  d-flex align-items-center">
+        <div class="col-md-6 col-12 my-3">
+          <img src="./assets/images/home/testimonial/testm.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6 col-12 my-3">
+          <p class="heading-3">testimonial</p>
+          <p class="heading-2">What people say</p>
+          <p class="para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem repudiandae, debitis sequi
+            maiores culpa tempora veniam deleniti eos dicta. Delectus dolor mollitia atque suscipit quia pariatur! Porro
+            quidem inventore ab."</p>
+          <p class="name">John deo</p>
+          <p class="post">Designer</p>
+          <div class="arrow">
+            <i class="fal fa-arrow-left"></i>
+            <i class="fal fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -- about --  -->
+  <div class="home-about section-padding" style="background-image: url('./assets/images/home/about/girls.png');">
+    <div class="max-theme-width">
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <h4 class="heading-2">Lorem ipsum dolor sit amet</h4>
+          <p class="para mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus fugiat, reiciendis
+            a,
+            aliquam illo animi assumenda incidunt nostrum eveniet quisquam suscipit. Perferendis at aliquam ab, dolores
+            excepturi ipsum id? aliquam illo animi assumenda incidunt nostrum eveniet quisquam suscipit. Perferendis at
+            aliquam ab, dolores
+          </p>
+          <button class="btn home-about-btn">More Options</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -- esteemed client --  -->
+  <div class="esteemed-client section-padding">
+    <div class="max-theme-width">
+      <h4 class="esteemed-client-head">some of our <span>esteemed clients</span> include</h4>
+      <div class="esteemed-client-imgs">
+        <div class="img my-3">
+          <img src="./assets/images/home/clients/mirco.png" alt="" class="img-fluid">
+        </div>
+        <div class="img my-3">
+          <img src="./assets/images/home/clients/cp.png" alt="" class="img-fluid">
+        </div>
+        <div class="img my-3">
+          <img src="./assets/images/home/clients/cl2.png" alt="" class="img-fluid">
+        </div>
+        <div class="img my-3">
+          <img src="./assets/images/home/clients/cl3.png" alt="" class="img-fluid">
+        </div>
+        <div class="img my-3">
+          <img src="./assets/images/home/clients/cab.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="section-padding">
+    <div class="main-footer max-theme-width">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 col-12">
+          <div class="f-logo">
+            <img src="./assets/images/header-footer/footer.png" alt="" />
+          </div>
+          <p class="p-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            est alias quia dolorem molestias ducimus?
+          </p>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6 mb-4 footer-links">
+          <div class="f-c-list">
+            <div class="f-list-item">
+              <i class="fal fa-angle-double-right"></i>
+              <a href="#">About</a>
+            </div>
+            <div class="f-list-item">
+              <i class="fal fa-angle-double-right"></i>
+              <a href="#">Services</a>
+            </div>
+            <div class="f-list-item">
+              <i class="fal fa-angle-double-right"></i>
+              <a href="#">Why SPADEKARD</a>
+            </div>
+            <div class="f-list-item">
+              <i class="fal fa-angle-double-right"></i>
+              <a href="#">Compare Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 col-12 my-3">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <i class="fas fa-map-marker-alt"></i>
+                </td>
+                <td>3261 Ross Street Hicks, IL 62622</td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="far fa-envelope"></i>
+                </td>
+                <td>
+                  <a href="mailto:demo@Spadekard.com">demo@Spadekard.com</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 col-12 my-3">
+          <div class="f-social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="f-social-btn">
+            <button class="btn btn-outline-warning btn-sm">share now</button>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown-divider"></div>
+      <div class="f-last">
+        <div>
+          <p class="p-last">copyright Ⓒ 2022 Spadekard- all right reserved</p>
+        </div>
+        <div>
+          <a class="f-a-last" href="#">T&C</a>
+          <span class="f-s-last">|</span>
+          <a class="f-a-last" href="#">PRIVACY AND POLICY</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+
+  <script>
+    
+  </script>
+</body>
+
+</html>
